@@ -191,7 +191,7 @@ nav{
 .experience{
     flex-direction: column;
     text-align: center;
-    background-image: url(/images/keyboard.jpg), linear-gradient(black, grey);
+    background-image: url(profile-images/keyboard.jpg), linear-gradient(black, grey);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -226,6 +226,7 @@ nav{
     background-color: var(--bg-heavy);
     max-width: unset;
     margin-bottom: 0;
+    
 }
 
 .portfolio .section-subtitle{
@@ -238,6 +239,7 @@ nav{
 .picture-container{
     display: grid;
     grid-gap: 2em;
+    margin-bottom: 10em;
 }
 
 .footer{
