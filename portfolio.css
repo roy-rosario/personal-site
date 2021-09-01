@@ -267,6 +267,13 @@ nav{
 
 /* first media query */
 
+@media screen and (min-width: 380px){
+    nav{
+        right: 55%;
+    }
+
+}
+
 @media screen and (min-width: 600px) {
 
     :root{
@@ -291,7 +298,7 @@ nav{
     }
 
     nav{
-        right: 55%;
+        right: 60%;
     }
     
     .hamburger{
@@ -402,7 +409,7 @@ nav{
     .inner-container-experience{
         display: flex;
         justify-content: space-between;
-        min-width: 60%;
+        min-width: 70%;
     
     }
     
@@ -415,6 +422,10 @@ nav{
 
     .exp-line{
         display: inherit;
+    }
+
+    nav{
+        right: 67%;
     }
     
 }
@@ -442,11 +453,21 @@ nav{
 
 /* media query for social list size */
 
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1050px){
+    nav{
+        right: 80%;
+    }
     
     .social-list{
        
         max-width: 25%;
       
     }
+}
+
+@media screen and (min-width: 1500px){
+    nav{
+        right: 85%;
+    }
+
 }
