@@ -10,8 +10,3 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
-
-const fs = require('fs');   
-const fileNames = fs.readdirSync('./completed-projects');
-
-console.log(fileNames)
