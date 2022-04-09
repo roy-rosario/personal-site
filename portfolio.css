@@ -232,6 +232,7 @@ nav{
 .portfolio .section-subtitle{
     margin-bottom: 2em;
     margin-top: 2em;
+    max-width: 50px;
 }
 
 
@@ -240,6 +241,11 @@ nav{
     display: grid;
     grid-gap: 2em;
     margin-bottom: 10em;
+}
+
+
+.social-item{
+    border: 1px solid red;
 }
 
 .footer{
@@ -260,7 +266,7 @@ nav{
     display: flex;
     color: var(--clr-accent);
     font-size: var(--fs-extra);
-    max-width: 50%;
+    max-width: 20%;
     justify-content: space-between;
     margin: 0 auto 3em auto;
 }
@@ -428,6 +434,9 @@ nav{
         right: 67%;
     }
     
+    .social-list{
+        max-width: 15%;
+    }
 }
 
 /* media query for nav sizing / hamburger size */
@@ -443,9 +452,7 @@ nav{
     }
     
     .social-list{
-       
-        max-width: 40%;
-      
+        max-width: 10%;
     }
     
 }
@@ -457,17 +464,17 @@ nav{
     nav{
         right: 80%;
     }
+
     
-    .social-list{
-       
-        max-width: 25%;
-      
-    }
 }
 
 @media screen and (min-width: 1500px){
     nav{
         right: 85%;
+    }
+
+    .social-list{
+        max-width: 8%;
     }
 
 }
